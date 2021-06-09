@@ -42,7 +42,9 @@
     "jwtSecretKey": "MmYwMWI4NDEwNTMzNDFkYmExZTcyYTRlZTRlMThiN2M1ODNiY2E3MTg5NzYzY2UxOGE2N2U2YWIzMDVmYTkyMWVkZjFiNmU3NTc5OWU0MGZmMTMyNzEwNjI2YmYyODA5ODllNjE1ZDY0ODU2ZTBkMGQzOWU4MWRmZDFkZjg5ZGU=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["Book", "Author"],
+    "lastLiquibaseTimestamp": 1623238113000
   },
   "git-provider": "GitHub",
   "git-company": "madhu1131",
