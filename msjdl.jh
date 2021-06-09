@@ -1,0 +1,18 @@
+
+
+
+
+entity Book{
+title String
+publishDate LocalDate
+cost Long
+description String
+}
+entity Author{
+name String
+address String
+}
+relationship OneToMany{
+Author{name} to Book
+}
+
